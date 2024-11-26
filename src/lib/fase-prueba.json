@@ -1,0 +1,24 @@
+[
+    {
+        "word": "Negro",
+        "colors": [
+            "black",
+            "red",
+            "yellow",
+            "blue",
+            "green"
+        ],
+        "congruent": false
+    },
+    {
+        "word": "Verde",
+        "colors": [
+            "red",
+            "yellow",
+            "green",
+            "green",
+            "yellow"
+        ],
+        "congruent": true
+    }
+]

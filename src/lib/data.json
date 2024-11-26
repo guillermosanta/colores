@@ -1,0 +1,346 @@
+[
+    {
+        "word": "Negro",
+        "colors": [
+            "black",
+            "red",
+            "yellow",
+            "blue",
+            "green"
+        ],
+        "congruent": false
+    },
+    {
+        "word": "Verde",
+        "colors": [
+            "red",
+            "yellow",
+            "green",
+            "green",
+            "yellow"
+        ],
+        "congruent": true
+    },
+    {
+        "word": "Rojo",
+        "colors": [
+            "blue",
+            "red",
+            "red",
+            "yellow"
+        ],
+        "congruent": true
+    },
+    {
+        "word": "Verde",
+        "colors": [
+            "yellow",
+            "black",
+            "green",
+            "green",
+            "yellow"
+        ],
+        "congruent": true
+    },
+    {
+        "word": "Amarillo",
+        "colors": [
+            "red",
+            "red",
+            "green",
+            "blue",
+            "black",
+            "green",
+            "black",
+            "blue"
+        ],
+        "congruent": false
+    },
+    {
+        "word": "Verde",
+        "colors": [
+            "blue",
+            "red",
+            "green",
+            "red",
+            "blue"
+        ],
+        "congruent": true
+    },
+    {
+        "word": "Azul",
+        "colors": [
+            "black",
+            "yellow",
+            "red",
+            "yellow"
+        ],
+        "congruent": false
+    },
+    {
+        "word": "Rojo",
+        "colors": [
+            "black",
+            "green",
+            "green",
+            "yellow"
+        ],
+        "congruent": false
+    },
+    {
+        "word": "Amarillo",
+        "colors": [
+            "red",
+            "yellow",
+            "blue",
+            "green",
+            "green",
+            "green",
+            "black",
+            "yellow"
+        ],
+        "congruent": false
+    },
+    {
+        "word": "Azul",
+        "colors": [
+            "red",
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "congruent": true
+    },
+    {
+        "word": "Azul",
+        "colors": [
+            "yellow",
+            "yellow",
+            "blue",
+            "green"
+        ],
+        "congruent": true
+    },
+    {
+        "word": "Negro",
+        "colors": [
+            "green",
+            "green",
+            "black",
+            "blue",
+            "blue"
+        ],
+        "congruent": true
+    },
+    {
+        "word": "Azul",
+        "colors": [
+            "black",
+            "yellow",
+            "blue",
+            "blue"
+        ],
+        "congruent": true
+    },
+    {
+        "word": "Negro",
+        "colors": [
+            "black",
+            "blue",
+            "black",
+            "yellow",
+            "black",
+            "yellow",
+            "black"
+        ],
+        "congruent": true
+    },
+    {
+        "word": "Verde",
+        "colors": [
+            "green",
+            "red",
+            "black",
+            "red",
+            "yellow"
+        ],
+        "congruent": false
+    },
+    {
+        "word": "Verde",
+        "colors": [
+            "blue",
+            "red",
+            "green",
+            "yellow",
+            "yellow"
+        ],
+        "congruent": true
+    },
+    {
+        "word": "Negro",
+        "colors": [
+            "black",
+            "red",
+            "yellow",
+            "black",
+            "black"
+        ],
+        "congruent": false
+    },
+    {
+        "word": "Rojo",
+        "colors": [
+            "yellow",
+            "green",
+            "green",
+            "green"
+        ],
+        "congruent": false
+    },
+    {
+        "word": "Negro",
+        "colors": [
+            "yellow",
+            "green",
+            "yellow",
+            "black",
+            "yellow"
+        ],
+        "congruent": false
+    },
+    {
+        "word": "Verde",
+        "colors": [
+            "green",
+            "red",
+            "red",
+            "black",
+            "black"
+        ],
+        "congruent": false
+    },
+    {
+        "word": "Negro",
+        "colors": [
+            "black",
+            "red",
+            "blue",
+            "red",
+            "black"
+        ],
+        "congruent": false
+    },
+    {
+        "word": "Negro",
+        "colors": [
+            "green",
+            "green",
+            "yellow",
+            "red",
+            "green"
+        ],
+        "congruent": false
+    },
+    {
+        "word": "Azul",
+        "colors": [
+            "green",
+            "green",
+            "green",
+            "yellow"
+        ],
+        "congruent": false
+    },
+    {
+        "word": "Negro",
+        "colors": [
+            "red",
+            "blue",
+            "black",
+            "black",
+            "blue"
+        ],
+        "congruent": true
+    },
+    {
+        "word": "Verde",
+        "colors": [
+            "red",
+            "black",
+            "green",
+            "red",
+            "black"
+        ],
+        "congruent": true
+    },
+    {
+        "word": "Amarillo",
+        "colors": [
+            "blue",
+            "green",
+            "yellow",
+            "yellow",
+            "red",
+            "yellow",
+            "green",
+            "blue"
+        ],
+        "congruent": true
+    },
+    {
+        "word": "Amarillo",
+        "colors": [
+            "green",
+            "yellow",
+            "yellow",
+            "red",
+            "blue",
+            "green",
+            "red",
+            "black"
+        ],
+        "congruent": true
+    },
+    {
+        "word": "Rojo",
+        "colors": [
+            "yellow",
+            "blue",
+            "red",
+            "blue"
+        ],
+        "congruent": true
+    },
+    {
+        "word": "Negro",
+        "colors": [
+            "blue",
+            "red",
+            "black",
+            "green",
+            "black"
+        ],
+        "congruent": true
+    },
+    {
+        "word": "Azul",
+        "colors": [
+            "blue",
+            "blue",
+            "green",
+            "black"
+        ],
+        "congruent": true
+    },
+    {
+        "word": "Rojo",
+        "colors": [
+            "yellow",
+            "yellow",
+            "green",
+            "red"
+        ],
+        "congruent": false
+    }
+]
