@@ -1,24 +1,115 @@
 [
     {
         "word": "Negro",
+        "congruent": true,
         "colors": [
             "black",
+            "black",
+            "black",
             "red",
-            "yellow",
-            "blue",
-            "green"
-        ],
-        "congruent": false
+            "red"
+        ]
     },
     {
         "word": "Verde",
+        "congruent": false,
+        "colors": [
+            "blue",
+            "blue",
+            "blue",
+            "black",
+            "blue"
+        ]
+    },
+    {
+        "word": "Amarillo",
+        "congruent": false,
+        "colors": [
+            "black",
+            "green",
+            "blue",
+            "red",
+            "black",
+            "yellow",
+            "red",
+            "black"
+        ]
+    },
+    {
+        "word": "Azul",
+        "congruent": true,
+        "colors": [
+            "red",
+            "blue",
+            "blue",
+            "green"
+        ]
+    },
+    {
+        "word": "Negro",
+        "congruent": false,
+        "colors": [
+            "black",
+            "green",
+            "yellow",
+            "yellow",
+            "blue"
+        ]
+    },
+    {
+        "word": "Rojo",
+        "congruent": true,
+        "colors": [
+            "red",
+            "blue",
+            "red",
+            "green"
+        ]
+    },
+    {
+        "word": "Verde",
+        "congruent": false,
+        "colors": [
+            "green",
+            "green",
+            "red",
+            "black",
+            "red"
+        ]
+    },
+    {
+        "word": "Verde",
+        "congruent": true,
+        "colors": [
+            "green",
+            "red",
+            "green",
+            "red",
+            "green"
+        ]
+    },
+    {
+        "word": "Azul",
+        "congruent": false,
+        "colors": [
+            "red",
+            "green",
+            "black",
+            "green"
+        ]
+    },
+    {
+        "word": "Amarillo",
+        "congruent": true,
         "colors": [
             "red",
             "yellow",
-            "green",
-            "green",
+            "yellow",
+            "red",
+            "blue",
+            "black",
+            "red",
             "yellow"
-        ],
-        "congruent": true
+        ]
     }
 ]
