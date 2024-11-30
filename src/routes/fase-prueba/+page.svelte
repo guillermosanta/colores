@@ -22,7 +22,7 @@
   };
 
   let awaitingNext = $state(false);
-  let questionNum = $state(0);
+  let questionNum = $state(9);
   let correct = $state(false);
   function handleClick(response) {
     if (awaitingNext === true) return;
@@ -55,7 +55,13 @@
           .word}
         y la tercera letra es de color {englishToSpanish[data[questionNum].colors[2]]}
       </p>
-      <button onclick={handleNext}> Siguiente pregunta</button>
+      {#if questionNum + 1 < data.length}
+        <button class="button-next" onclick={handleNext}> Siguiente pregunta</button>
+      {:else}
+        <p>Ya has acabado la fase de prueba, en cuanto hagas click en este botón, empezará el test.</p>
+
+        <button class="button-test" onclick={() => goto("/test")}> Comenzar test </button>
+      {/if}
     {/if}
   </div>
 </div>
@@ -89,7 +95,7 @@
     cursor: pointer;
   }
 
-  .awaiting-next button {
+  .button-next {
     padding: 0.5rem 1rem;
     font-size: 0.9rem;
     color: black;
@@ -99,12 +105,22 @@
     cursor: pointer;
   }
 
-  button:hover {
+  .button-next:hover {
     background-color: #e0e0e0;
   }
 
-  button:focus {
+  .button-next:focus {
     outline: none;
     border-color: #007bff;
+  }
+
+  .button-test {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    color: black;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
   }
 </style>
