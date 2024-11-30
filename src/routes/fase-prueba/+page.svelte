@@ -8,7 +8,7 @@
   const colorToHex = {
     black: "#000000",
     red: "#FF0000",
-    yellow: "#EAFF72",
+    yellow: "#FFFF00",
     blue: "#4000FF",
     green: "#00A018",
   };

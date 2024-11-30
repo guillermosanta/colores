@@ -1,6 +1,6 @@
 <script>
   import data from "$lib/data.json";
-  import { age, gender, participantNumber, responses } from "../../stores";
+  import { age, gender, condition, participantNumber, responses } from "../../stores";
 
   const correctResponses = $responses.filter((res) => res.correct).length;
   const porcentage = parseFloat(((correctResponses / data.length) * 100).toFixed(2));
@@ -12,6 +12,7 @@
   <p>Participante #{$participantNumber}</p>
   <p>Género: {$gender}</p>
   <p>Edad: {$age}</p>
+  <p>Condición: {$condition}</p>
 </div>
 
 <div class="response-stats">

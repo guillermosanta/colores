@@ -1,9 +1,9 @@
 <script>
   import { goto } from "$app/navigation";
-  import { participantNumber, gender, age } from "./../stores.js";
+  import { participantNumber, condition, gender, age } from "./../stores.js";
 
   function handleSubmit() {
-    if (!$participantNumber || !$age || !$gender) alert("Rellene todos los campos");
+    if (!$participantNumber || !$age || !$gender || !$condition) alert("Rellene todos los campos");
     else if ($age <= 0) alert("Edad incorrecta");
     else if ($participantNumber < 0) alert("Número de participante incorrecto");
     else goto("/fase-prueba");
@@ -20,11 +20,18 @@
   >
   <label>
     Género
-    <select placeholder="hey" bind:value={$gender} name="gender">
+    <select bind:value={$gender} name="gender">
       <option value="Masculino">Masculino</option>
       <option value="Femenino">Femenino</option>
       <option value="Otro">Otro</option>
       <option value="Prefiero no responder">Prefiero no responder</option>
+    </select>
+  </label>
+  <label>
+    Condición
+    <select bind:value={$condition} name="gender">
+      <option value="1">1</option>
+      <option value="2">2</option>
     </select>
   </label>
   <label> Edad <input bind:value={$age} name="age" type="number" /></label>
