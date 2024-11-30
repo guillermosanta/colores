@@ -22,7 +22,7 @@
   };
 
   let awaitingNext = $state(false);
-  let questionNum = $state(9);
+  let questionNum = $state(0);
   let correct = $state(false);
   function handleClick(response) {
     if (awaitingNext === true) return;
